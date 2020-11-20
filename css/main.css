@@ -1,4 +1,5 @@
 html {
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -10,30 +11,87 @@ html {
   box-sizing: inherit;
 }
 
-H1 {
+h1 {
   Font-size: 90.44px;
-  font-weight: bold;
 }
 
-H2 {
+h2 {
+  Font-size: 63.96px;
+}
+
+h3 {
+  Font-size: 45.23px;
+}
+
+h4 {
   Font-size: 31.99px;
-  font-weight: Thin;
 }
 
-H3 {
+h5 {
   Font-size: 22.62px;
-  font-weight: medium;
 }
 
-H4 {
+h6 {
   Font-size: 16px;
-  font-weight:
 }
 
-H5 {
-  Font-size: 8px;
+
+.thin {
+  font-weight: 100;
 }
 
-.btn {
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+img {
+  max-width: 50%;
+}
+
+.image01 {
+
+}
+
+.item01 {
+
+}
+
+.image02 {
+
+}
+
+.item02 {
+
+}
+
+.title {
+
+}
+
+.statement {
+
+}
+
+.solution {
+
+}
+
+.date {
 
 }
