@@ -10,37 +10,30 @@ html {
   box-sizing: inherit;
 }
 
-ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  margin: 0;
-  padding: 0;
+H1 {
+  Font-size: 90.44px;
+  font-weight: bold;
 }
 
-a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #76a500;
+H2 {
+  Font-size: 31.99px;
+  font-weight: Thin;
 }
 
-a:hover,
-a:focus {
-  color: #acc300;
+H3 {
+  Font-size: 22.62px;
+  font-weight: medium;
 }
 
-.icon {
-  position: relative;
-  height: 8em;
-  width: 8em;
+H4 {
+  Font-size: 16px;
+  font-weight:
 }
 
-.icon svg {
-  left: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  fill: currentColor;
+H5 {
+  Font-size: 8px;
+}
+
+.btn {
+
 }
