@@ -20,15 +20,23 @@ ul {
 }
 
 a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.nav-link {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: inherit;
-  text-decoration: none;
 }
 
-a:hover,
-a:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #f4be37;
 }
 
@@ -78,7 +86,7 @@ a:focus {
 }
 
 .about-bio {
-  width: 80%;
+  width: 70%;
 
 }
 
@@ -194,15 +202,20 @@ h6 {
   font-weight: 700;
 }
 
-.black {
+.blacker {
   font-weight: 900;
 }
 
 .mono {
+  margin-top: 0vh;
   font-family: 'Roboto Mono', monospace;
   margin-bottom: 0px;
 }
 /* Shop  */
+.price {
+  margin-bottom: 4vh;
+}
+
 .shirt01 {
   display: flex;
 }
@@ -212,25 +225,25 @@ h6 {
 }
 
 .shirt-image-container {
-  margin-top: 10vh;
+  margin-top: 0vh;
   width: 50vw;
 }
 
 .shirt01image {
   height: 46vh;
   margin-top: 8vh;
-  margin-left: 8vw;
+  margin-left: 12vw;
 }
 
 .shirt02image {
   height: 46vh;
-  margin-top: 17vh;
+  margin-top: 32vh;
   margin-right: 8vw;
 }
 
 .shirt01description {
-  margin-top: 10vh;
-  margin-left: 10vw;
+  margin-top: -5.5vh;
+  margin-left: 6vw;
   width: 100vw;
   background-color: white;
 }
@@ -248,10 +261,12 @@ h6 {
 }
 
 .shirt-header {
+  position: relative;
+  right: .6vw;
   margin: 0;
-  opacity: 5%;
+  opacity: 2%;
   line-height: .9em;
-  padding-bottom: 2vh;
+  padding-bottom: 0vh;
 }
 
 .shirt-description {
@@ -298,12 +313,18 @@ p {
   padding-top: 3px;
 }
 
+.collection:hover {
+  background-color: white;
+}
+
+.prompt-button {
+}
+
 .collection {
-  display: inline;
+  background-color: black;
+  width: fit-content;
   font-size: 16px;
   color: white;
-  background-color: black;
-  border-color: black;
   text-align: left;
   padding: 5px;
 }
@@ -373,7 +394,7 @@ p {
 .nav-list-footer-black {
   -webkit-column-rule: ;
   -moz-column-rule: ;
-  column-rule: ;: black;
+  column-rule: black;
   padding-left: 10vh;
   padding-right: 3vh;
   padding-top: 3vh;
